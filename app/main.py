@@ -12,8 +12,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
-        "https://your-frontend-domain.com",
+        "https://record-vault-ui.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
